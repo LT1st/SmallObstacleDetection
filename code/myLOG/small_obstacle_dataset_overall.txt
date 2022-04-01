@@ -1,0 +1,93 @@
+├─test
+│  ├─stadium_3
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  └─vindhya_2
+│      ├─depth
+│      ├─image
+│      ├─labels
+│      ├─odometry
+│      └─velodyne
+├─train
+│  ├─file_1
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  ├─file_2
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  ├─file_3
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  ├─file_5
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  ├─seq_1
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  ├─seq_2
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  ├─seq_5
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  ├─seq_6
+│  │  ├─depth
+│  │  ├─image
+│  │  ├─labels
+│  │  ├─odometry
+│  │  └─velodyne
+│  └─stadium_4
+│      ├─depth
+│      ├─image
+│      ├─labels
+│      ├─odometry
+│      └─velodyne
+└─val
+    ├─seq_3
+    │  ├─depth
+    │  ├─image
+    │  ├─labels
+    │  ├─odometry
+    │  └─velodyne
+    ├─seq_4
+    │  ├─depth
+    │  ├─image
+    │  ├─labels
+    │  ├─odometry
+    │  └─velodyne
+    ├─stadium_1
+    │  ├─depth
+    │  ├─image
+    │  ├─labels
+    │  ├─odometry
+    │  └─velodyne
+    └─vindhya_1
+        ├─depth
+        ├─image
+        ├─labels
+        ├─odometry
+        └─velodyne

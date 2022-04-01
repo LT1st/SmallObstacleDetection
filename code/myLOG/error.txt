@@ -1,0 +1,106 @@
+python train.py --epochs 1 --batch-size 3 --gpu-ids 0,1 --mode train --dataset lnf
+验证报错
+Traceback (most recent call last):
+  File "train.py", line 557, in <module>
+    main()
+  File "train.py", line 537, in main
+    trainer.training(epoch)
+  File "train.py", line 221, in training
+    output, conf, pre_conf = self.model(image)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\parallel\data_parallel.py", line 159, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "D:\00code\small_obstacle_discovery-master\modeling\deeplab.py", line 37, in forward
+    x = self.aspp(x)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "D:\00code\small_obstacle_discovery-master\modeling\aspp.py", line 70, in forward
+    x5 = self.global_avg_pool(x)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\container.py", line 117, in forward
+    input = module(input)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\batchnorm.py", line 131, in forward
+    return F.batch_norm(
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\functional.py", line 2054, in batch_norm
+    _verify_batch_size(input.size())
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\functional.py", line 2037, in _verify_batch_size
+    raise ValueError('Expected more than 1 value per channel when training, got input size {}'.format(size))
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 256, 1, 1])
+
+
+linux 验证报错
+(1036, 512, 512)
+debug 这里说明结束了已经
+Exception ignored in: <function Pool.__del__ at 0x7f62fd5add30>
+Traceback (most recent call last):
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+    self._change_notifier.put(None)
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+OSError: [Errno 9] Bad file descriptor
+Exception ignored in: <function Pool.__del__ at 0x7f62fd5add30>
+Traceback (most recent call last):
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/pool.py", line 268, in __del__
+    self._change_notifier.put(None)
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/queues.py", line 368, in put
+    self._writer.send_bytes(obj)
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/connection.py", line 200, in send_bytes
+    self._send_bytes(m[offset:offset + size])
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/connection.py", line 411, in _send_bytes
+    self._send(header + buf)
+  File "/usr/local/miniconda3/lib/python3.8/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+OSError: [Errno 9] Bad file descriptor
+
+输入的batch中只有一张图，报错
+比如batchsize=1，或者训练到最后一个epoch。
+需要根据epoch手动调整
+training:   0%|          | 0/1036 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:/00code/small_obstacle_discovery-master/train.py", line 561, in <module>
+    main()
+  File "D:/00code/small_obstacle_discovery-master/train.py", line 541, in main
+    trainer.training(epoch)
+  File "D:/00code/small_obstacle_discovery-master/train.py", line 225, in training
+    output, conf, pre_conf = self.model(image)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\parallel\data_parallel.py", line 159, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "D:\00code\small_obstacle_discovery-master\modeling\deeplab.py", line 37, in forward
+    x = self.aspp(x)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "D:\00code\small_obstacle_discovery-master\modeling\aspp.py", line 70, in forward
+    x5 = self.global_avg_pool(x)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\container.py", line 117, in forward
+    input = module(input)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\modules\batchnorm.py", line 131, in forward
+    return F.batch_norm(
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\functional.py", line 2054, in batch_norm
+    _verify_batch_size(input.size())
+  File "C:\ProgramData\Anaconda3\envs\t\lib\site-packages\torch\nn\functional.py", line 2037, in _verify_batch_size
+    raise ValueError('Expected more than 1 value per channel when training, got input size {}'.format(size))
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 256, 1, 1])

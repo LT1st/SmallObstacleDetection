@@ -1,0 +1,440 @@
+
+=>Epoches 8, learning rate = 0.0068,                 previous best = 0.7428
+本Batch加载到model的量： torch.Size([3, 3, 512, 512])
+
+ ... (more hidden) ...本Batch加载到model的量： torch.Size([3, 3, 512, 512])
+Process SpawnPoolWorker-27:
+Process SpawnPoolWorker-29:
+Process SpawnPoolWorker-8:
+Process SpawnPoolWorker-26:
+Process SpawnPoolWorker-30:
+Process SpawnPoolWorker-25:
+Process SpawnPoolWorker-22:
+Process SpawnPoolWorker-4:
+Process SpawnPoolWorker-21:
+Process SpawnPoolWorker-20:
+Process SpawnPoolWorker-23:
+Process SpawnPoolWorker-7:
+Process SpawnPoolWorker-15:
+Process SpawnPoolWorker-17:
+Process SpawnPoolWorker-10:
+Process SpawnPoolWorker-19:
+Process SpawnPoolWorker-18:
+Process SpawnPoolWorker-14:
+Process SpawnPoolWorker-16:
+Process SpawnPoolWorker-13:
+Process SpawnPoolWorker-3:
+Process SpawnPoolWorker-9:
+Process SpawnPoolWorker-6:
+Process SpawnPoolWorker-12:
+Process SpawnPoolWorker-2:
+Process SpawnPoolWorker-28:
+Process SpawnPoolWorker-1:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+Process SpawnPoolWorker-11:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Process SpawnPoolWorker-24:
+Process SpawnPoolWorker-5:
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 356, in get
+    res = self._reader.recv_bytes()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 356, in get
+    res = self._reader.recv_bytes()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 356, in get
+    res = self._reader.recv_bytes()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 356, in get
+    res = self._reader.recv_bytes()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 356, in get
+    res = self._reader.recv_bytes()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 356, in get
+    res = self._reader.recv_bytes()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\pool.py", line 114, in worker
+    task = get()
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\queues.py", line 355, in get
+    with self._rlock:
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+KeyboardInterrupt
+  File "C:\ProgramData\Anaconda3\envs\t\lib\multiprocessing\synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+ ... (more hidden) ...
+Traceback (most recent call last):
+  File "train.py", line 559, in <module>
+    trainer.training(epoch)
+  File "train.py", line 539, in main
+    lrs = {
+  File "train.py", line 228, in training
+    loss = self.criterion.CrossEntropyLoss(output,target,weight=torch.from_numpy(calculate_weights_batch(sample,self.nclass).astype(np.float32)))
+KeyboardInterrupt
+KeyboardInterrupt
+^C
+(t) D:\00code\small_obstacle_discovery-master> python train.py --epochs 80 --batch-size 3 --gpu-ids 0 --mode train --dataset cityscapes
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 2
+CreateFile() Error: 2
+using depth? : False
+u are running in : Windows
+Traceback (most recent call last):
+  File "train.py", line 588, in <module>
+    main()
+  File "train.py", line 562, in main
+    trainer = Trainer(args)
+  File "train.py", line 94, in __init__
+    train_imgs, train_labels = HLP.get_ImagesAndLabels_contextnet(Path.db_root_dir(args.dataset),
+  File "D:\00code\small_obstacle_discovery-master\utils\helpers.py", line 206, in get_ImagesAndLabels_contextnet
+    for a in sorted(os.listdir(image_path)):
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: '/path/to/datasets/cityscapes/leftImg8bit/train/'
+
+(t) D:\00code\small_obstacle_discovery-master>conda list -e > condalist.txt
+
